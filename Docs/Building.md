@@ -34,9 +34,9 @@ We recommend you to create a lib folder in `C:` and to use it when extracting ex
 	
 			.\bootstrap.bat
 			# build just what we need
-			.\b2. toolset=msvc-14.0 --with-thread --with-random --with-python --with-date_time --with-test --with-filesystem --with-regex --build-type=complete stage
+			.\b2 toolset=msvc-14.0 --with-thread --with-random --with-python --with-date_time --with-test --with-filesystem --with-regex --build-type=complete stage
 			# or everything
-			.\b2. toolset=msvc-14.0 --build-type=complete stage
+			.\b2 toolset=msvc-14.0 --build-type=complete stage
 	
 	* Move the lib/ folder (inside stage/) to the Boost folder root
 	* Create/check environment variable
